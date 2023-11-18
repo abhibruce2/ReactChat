@@ -6,15 +6,6 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 import { getAnalytics } from "firebase/analytics";
 
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-// const REACT_APP_API_KEY_GOES_HERE = "AIzaSyDEJUyOeRhNCvFgnLD5kXijGQdLlfECDrM" ;
-// const REACT_APP_AUTH_DOMAIN_GOES_HERE = "react-chat-b85c9.firebaseapp.com"
-// const REACT_APP_PROJECT_ID_GOES_HERE = "react-chat-b85c9";
-// const REACT_APP_STORAGE_BUCKET_GOES_HERE = "react-chat-b85c9.appspot.com" ;
-// const REACT_APP_MESSSAGING_SENDER_ID_GOES_HERE = "951820632316" ;
-// const REACT_APP_APP_ID_GOES_HERE = "1:951820632316:web:8da185ca825dbec4389779"
-
 const firebaseConfig = {
     apiKey: process.env.REACT_APP_API_KEY,
     authDomain: process.env.REACT_APP_AUTH_DOMAIN,
